@@ -63,44 +63,29 @@ class SilkyArcToolGUI:
 
     programm_help = {
         'eng': """
-Dual languaged (rus+eng) GUI tool for packing and unpacking archives of Silky Engine.
-This type of .arc archive also used in Ai6WIN engine (and possibly in Ai5WIN) by Silky.
-If you want to work with Silky Engine's .mes scripts, use mesScriptAsseAndDisassembler instead.
+Dual languaged (rus+eng) GUI tool for packing and unpacking archives of AI6WIN engine. Very-very incomplete list of games of the engine thou can see here. It is not the same arc as used in Silky Engine and AI5WIN. For Silky Engine .arc archives use SilkyArcTool instead, for AI5WIN's use AI5WINArcTool!
 
-Why this tool was created, if there are other tools that can work with this type of archive?
-The answer is simple: because there was no actually good enough tools. One tool can only extract the data, other -- only
-pack, but without using original compression, that resulting in outrageous big output archives. My tool solves all the
-issues -- not only it can extract archives, but also pack them from files, compressing it by algorithm (variation of
-LZSS), extraction of which was implemented by Silky Engine. Through the tool has one problem -- it works quite slow,
-especially for packing, so you may need to wait for some minutes (due to implementation compression algorithm on
-Python).
+Important note: the tool is quite slow. It may take several minutes to extract and especially pack even rather small archives.
 
 >>> Usage.
 
 1. Run the tool (main.py or .exe).
 2. Print filename (with extension!!!) or choose it by clicking on button "...".
 3. Print directory or choose it by clicking on button "...".
-4. Print "0", if thou want to unpack, or "1", if thou want to pack.
+4. Push the button pack or "Unpack" to "Pack" or unpack.
 5. Just wait until it done.
 """,
         'rus': """
-Двуязычное средство (рус+англ) для распаковки и запаковки архивов Silky Engine. Сей вид архива также используется в
-движке Ai6WIN (и, возможно, в Ai5WIN) от Silky. Ежели вам нужно работать со скриптами .mes Silky Engine, используйте
-mesScriptAsseAndDisassembler.
+Двуязычное средство (рус+англ) для распаковки и запаковки архивов движка AI6WIN. Очень-преочень неполный список игр на движке вы можете обозревать здесь. Не стоит путать его с разновидностями .arc, используемым в AI5WIN и Silky Engine. Для них используйте другие средства: AI5WINArcTool и SilkyArcTool соответственно!
 
-Почему же это средство было создано, ежель и так есть средства, что могут работать с сим типом архива? Ответ прост: ни
-одно из тех существующих средств не является достаточно хорошим. Одно может только извлекать, другое -- только
-запаковывать, однако ж без использования оригинального алгоритма сжатия, из-за чего архивы получаются большими сверх
-всякой меры. Но моё средство исправляет эти проблемы: оно может как распаковывать данные, так и запаковывать их, причём
-сжимая файлы так, как их хочет видеть Silky Engine (разновидностью LZSS). Единственная, однако, проблема у средства есть
--- несколько медленно работает оно, особенно при запаковке, так что может придётся прождать несколько минут (ввиду
-реализации алгоритма сжатия на Python).
+Важная заметка: средство достаточно медленное. Для того, чтобы распаковать и запаковать даже достаточно маленький архив, может потребоваться несколько минут.
 
 >>> Использование.
+
 1. Запустите пакет средств (main.py иль .exe).
 2. Введите имя архива (с расширением!!!) или выберите его, нажав на кнопку "...".
 3. Введите имя директории файлов или выберите его, нажав на кнопку "...".
-4. Введите "0", коли распаковать желаете, али "1", коли запаковать желаете.
+4. Нажмите на кнопку, соответствующую желаемому действию ("Распаковать" и "Запаковать").
 5. Ждите завершения.
 """
     }
