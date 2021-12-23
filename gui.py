@@ -63,7 +63,7 @@ class SilkyArcToolGUI:
 
     programm_help = {
         'eng': """
-Dual languaged (rus+eng) GUI tool for packing and unpacking archives of AI6WIN engine. Very-very incomplete list of games of the engine thou can see here. It is not the same arc as used in Silky Engine and AI5WIN. For Silky Engine .arc archives use SilkyArcTool instead, for AI5WIN's use AI5WINArcTool!
+Dual languaged (rus+eng) GUI tool for packing and unpacking archives of AI6WIN engine. Very-very incomplete list of games of the engine thou can see on vndb. It is not the same arc as used in Silky Engine and AI5WIN. For Silky Engine .arc archives use SilkyArcTool instead, for AI5WIN's use AI5WINArcTool!
 
 Important note: the tool is quite slow. It may take several minutes to extract and especially pack even rather small archives.
 
@@ -76,7 +76,7 @@ Important note: the tool is quite slow. It may take several minutes to extract a
 5. Just wait until it done.
 """,
         'rus': """
-Двуязычное средство (рус+англ) для распаковки и запаковки архивов движка AI6WIN. Очень-преочень неполный список игр на движке вы можете обозревать здесь. Не стоит путать его с разновидностями .arc, используемым в AI5WIN и Silky Engine. Для них используйте другие средства: AI5WINArcTool и SilkyArcTool соответственно!
+Двуязычное средство (рус+англ) для распаковки и запаковки архивов движка AI6WIN. Очень-преочень неполный список игр на движке вы можете обозревать на vndb. Не стоит путать его с разновидностями .arc, используемым в AI5WIN и Silky Engine. Для них используйте другие средства: AI5WINArcTool и SilkyArcTool соответственно!
 
 Важная заметка: средство достаточно медленное. Для того, чтобы распаковать и запаковать даже достаточно маленький архив, может потребоваться несколько минут.
 
