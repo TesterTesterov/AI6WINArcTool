@@ -5,7 +5,7 @@ Dual languaged (rus+eng) GUI tool for packing and unpacking archives of AI6WIN e
 Important note: the tool is quite slow. It may take several minutes to extract and especially pack even rather small archives.
 
 ## Русский
-Двуязычное средство (рус+англ) для распаковки и запаковки архивов движка AI6WIN. Очень-преочень неполный список игр на движке вы можете обозревать [здесь](https://vndb.org/r?f=fwAI6WIN-). **Не стоит путать его с разновидностью .arc, используемой в Ai6WIN Для неё используйте другое средство: [SilkyArcTool](https://github.com/TesterTesterov/SilkyArcTool)!**
+Двуязычное средство (рус+англ) для распаковки и запаковки архивов движка AI6WIN. Очень-преочень неполный список игр на движке вы можете обозревать [здесь](https://vndb.org/r?f=fwAI6WIN-). **Не стоит путать его с разновидностями .arc, используемым в AI5WIN и Silky Engine. Для них используйте другие средства: [AI5WINArcTool](https://github.com/TesterTesterov/AI5WINArcTool) и [SilkyArcTool](https://github.com/TesterTesterov/SilkyArcTool) соответственно!**
 
 Важная заметка: средство достаточно медленное. Для того, чтобы распаковать и запаковать даже достаточно маленький архив, может потребоваться несколько минут.
 
