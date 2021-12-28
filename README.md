@@ -34,6 +34,8 @@ Important note: the tool is quite slow. It may take several minutes to extract a
 
 ## On English
 - [Gakuen Saimin Reido -Sakki made, Daikirai Datta Hazu na no ni-](https://vndb.org/v1601).
+- [Words Worth - Windows 10 Edition](https://vndb.org/v315).
 
 ## На русском
 - [Рабыни гипноза в школе: А ведь недавно точно ненавидела](https://vndb.org/v1601).
+- [Значимость слов: Версия с поддержкой Windows 10](https://vndb.org/v315).
