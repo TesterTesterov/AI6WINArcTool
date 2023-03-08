@@ -7,10 +7,10 @@ def test(mode: str):
     from ai6win_arc import AI6WINArc
     """modes: unpack, pack,"""
     if mode == "unpack":
-        test_arc = AI6WINArc("Data.arc", "Data", integrity_check=True)
+        test_arc = AI6WINArc("mes.arc", "mes", integrity_check=True)
         test_arc.unpack()
     elif mode == "pack":
-        test_arc = AI6WINArc("Data.arc", "Data", integrity_check=True)
+        test_arc = AI6WINArc("mes.arc", "mes", integrity_check=True)
         test_arc.pack()
 
 

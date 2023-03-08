@@ -123,6 +123,7 @@ verbose: False (no progress messages) or True (enable progress messages)."""
                     except AssertionError:
                         print("!!! File {0} true size is incorrect!/Истинный размер файла {0} некорректен!".
                               format(i[1]))
+            os.makedirs(os.path.dirname(this_file_name), exist_ok=True)
             with open(this_file_name, 'wb') as this_file:
                 this_file.write(new_file_bytes)
             if self._verbose:

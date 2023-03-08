@@ -71,8 +71,9 @@ verbose: False (no progress messages) or True (enable progress messages)."""
 
                 rel_name = os.path.normpath(os.path.join(root, filename))
                 end_name = rel_name
-                if rel_name.startswith(root + os.sep):
-                    end_name = rel_name[len(root + os.sep):]
+                if rel_name.startswith(self._dir_name + os.sep):
+                    end_name = rel_name[len(self._dir_name + os.sep):]
+                    end_name = end_name.replace(os.sep, '/')
                 encrypted_name = self.encrypt_name(end_name)
 
                 with open(rel_name, 'rb') as this_file:
